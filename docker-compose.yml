@@ -1,6 +1,5 @@
 version: '3'
 services:
-  web:
     image: abhimaske/online-shop:latest
     ports:
       - "3000:3000"
