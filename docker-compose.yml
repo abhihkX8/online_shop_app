@@ -1,4 +1,5 @@
 version: '3'
+services:
   web:
     image: abhimaske/online-shop:latest
     ports:
