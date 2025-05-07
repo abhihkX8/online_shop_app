@@ -30,7 +30,7 @@ pipeline{
             }
         stage("deploy"){
             steps{
-                sh "docker compose down && docker compose up -d"
+                sh " docker compose up -d --build web"
             }
         }
     }
