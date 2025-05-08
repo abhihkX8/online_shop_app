@@ -50,7 +50,7 @@ export default function Admin() {
                         />
                     </div>
                     <div className="mb-3">
-                        <label className="form-label">Price</label>
+                        <label className="form-label">Rate</label>
                         <input
                             type="number"
                             step="0.01"
